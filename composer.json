@@ -1,5 +1,5 @@
 {
-    "name": "ytake/laravel-smarty",
+    "name": "linushstge/laravel-smarty",
     "description": "Smarty template engine for Laravel and Lumen",
     "keywords": [
         "laravel",
@@ -13,16 +13,20 @@
         {
             "name": "Yuuki Takezawa",
             "email": "yuuki.takezawa@comnect.jp.net"
+        },
+        {
+            "name": "Linus Holtstiege",
+            "email": "l.holtstiege@creoline.com"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
-        "illuminate/support": "^10.0|^11.0",
-        "illuminate/view": "^10.0|^11.0",
-        "illuminate/config": "^10.0|^11.0",
-        "illuminate/console": "^10.0|^11.0",
-        "illuminate/events": "^10.0|^11.0",
+        "php": "^8.3",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/view": "^10.0|^11.0|^12.0",
+        "illuminate/config": "^10.0|^11.0|^12.0",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/events": "^10.0|^11.0|^12.0",
         "smarty/smarty": "^4.3"
     },
     "require-dev": {
